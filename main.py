@@ -15,17 +15,18 @@ for item in range(45, 210):
         break
     print(item)
 
-Sol : str = input("what is the product of 7 * 24 ? (please enter integer number)")
-while not Sol.isdigit() :
-    Sol = input("what is the product of 7 * 24 ? (please enter integer number)")
+Sol : str =""
 
-while not int(Sol) == 168:
-    print("Your Answer is wrong try again..")
+
+while True:
     Sol = input("what is the product of 7 * 24 ? (please enter integer number)")
-    while not Sol.isdigit() :
-        Sol = input("what is the product of 7 * 24 ? (please enter integer number)")
-else:
-    print("You answered this Question correctly")
+    if not Sol.isdigit() :
+        continue
+    if int(Sol) == 168 :
+        print("You answered this Question correctly")
+        break
+    print("Your Answer is wrong try again..")
+    
 
 
 '''
