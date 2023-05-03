@@ -1,0 +1,16 @@
+
+#1
+x = range(45, 210)
+for n in x:
+  if n == 205:
+    break
+  if n == 100:
+    continue
+  print(n)
+
+#2
+answer = input("What is the product of 7 * 24? ")
+while answer != "168":
+    print("Your answer is wrong. Try again...")
+    answer = input("What is the product of 7 * 24? ")
+print("You answered this question correctly.")
