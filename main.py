@@ -25,14 +25,13 @@ else:
     print ("You answered this question correctly! *_*")
 
 
-    #bounce:
-    user_number =int(input("please provied number"))
-    for number in range (1,user_number+1):
-    
-    total_sum = 0
-    for number in range(1,user_number+1):
-      if number%2 ==0:
+#bounce:
+user_number =int(input("please provied number"))
+
+total_sum = 0
+for number in range(1,user_number+1):
+    if number%2 ==0:
         total_sum +=number
-    print("tot sum of  even numbers betwen 1 and (user_number) is (total_sum)")
+print("tot sum of  even numbers betwen 1 and (user_number) is (total_sum)")
 
 
