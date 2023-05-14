@@ -18,3 +18,4 @@ for number in range(number):
 print(f"The sum of even numbers between 1 and {number} is:{round(sum_num)}")
 
 
+
