@@ -9,8 +9,7 @@
 
 #task1 
 for number in range (45 , 210):
-    print (count)
-    if  numbers == 100:
+    if  number == 100:
         continue
     if number == 205:
         break
@@ -19,7 +18,7 @@ for number in range (45 , 210):
 #task2
 question : str = "what is the product of  7 * 24 "
 
-while int (input(qyestion)) != "168":
+while int (input(question)) != "168":
     print ("tour answer is wrong ! try again")
 else:
     print ("You answered this question correctly! *_*")
